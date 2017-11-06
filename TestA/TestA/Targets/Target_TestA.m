@@ -8,8 +8,6 @@
 
 #import "Target_TestA.h"
 
-#import "ViewController.h"
-
 @implementation Target_TestA
 - (void)Action_tsetAShowAlert:(NSDictionary *)params
 {
