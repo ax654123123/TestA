@@ -1,0 +1,7 @@
+TestA.xcodeproj/xcuserdata/
+TestA.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+TestA.xcodeproj/project.xcworkspace/xcuserdata/
