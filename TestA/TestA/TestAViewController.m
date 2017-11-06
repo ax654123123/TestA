@@ -47,7 +47,17 @@
 
 - (void)goBock
 {
-    [self dismissViewControllerAnimated:YES completion:^{}];
+    if (![self isMemberOfClass:[UIViewController class]])
+    {
+        if (self.parentViewController.childViewControllers.count>1) {
+            [self.navigationController popViewControllerAnimated:YES];
+        }
+        else{
+            if (self.presentingViewController) {
+                [self dismissViewControllerAnimated:YES completion:nil];
+            }
+        }
+    }
 }
 
 - (void)goBViewController
