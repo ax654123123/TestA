@@ -8,12 +8,21 @@
 
 #import "Target_TestA.h"
 
+#import "TestAViewController.h"
+
 @implementation Target_TestA
 - (void)Action_tsetAShowAlert:(NSDictionary *)params
 {
     
-    UIAlertView *ale = [[UIAlertView alloc] initWithTitle:@"tsetAShowAlert" message:@"" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil];
-    [ale show];
+    TestAViewController *controller = [[TestAViewController alloc] init];
+    [controller testShow];
     
 }
+
+- (UIViewController *)Action_viewController:(NSDictionary *)params
+{
+    TestAViewController *controller = [[TestAViewController alloc] init];
+    return controller;
+}
+
 @end

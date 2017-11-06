@@ -16,6 +16,7 @@
 		F873A1E51FB031C100A02BD9 /* TestATests.m in Sources */ = {isa = PBXBuildFile; fileRef = F873A1E41FB031C100A02BD9 /* TestATests.m */; };
 		F873A1F01FB031C100A02BD9 /* TestAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F873A1EF1FB031C100A02BD9 /* TestAUITests.m */; };
 		F873A2431FB0389900A02BD9 /* Target_TestA.m in Sources */ = {isa = PBXBuildFile; fileRef = F873A2421FB0389900A02BD9 /* Target_TestA.m */; };
+		F873A2461FB0435400A02BD9 /* TestAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F873A2451FB0435400A02BD9 /* TestAViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		F873A1F11FB031C100A02BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F873A2411FB0389900A02BD9 /* Target_TestA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_TestA.h; sourceTree = "<group>"; };
 		F873A2421FB0389900A02BD9 /* Target_TestA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_TestA.m; sourceTree = "<group>"; };
+		F873A2441FB0435400A02BD9 /* TestAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAViewController.h; sourceTree = "<group>"; };
+		F873A2451FB0435400A02BD9 /* TestAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				F873A2401FB0387C00A02BD9 /* Targets */,
+				F873A2441FB0435400A02BD9 /* TestAViewController.h */,
+				F873A2451FB0435400A02BD9 /* TestAViewController.m */,
 			);
 			path = TestA;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F873A2461FB0435400A02BD9 /* TestAViewController.m in Sources */,
 				F873A2431FB0389900A02BD9 /* Target_TestA.m in Sources */,
 				F873A1D01FB031C100A02BD9 /* ViewController.m in Sources */,
 				F873A1DB1FB031C100A02BD9 /* main.m in Sources */,

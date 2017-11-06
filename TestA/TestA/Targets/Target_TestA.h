@@ -14,4 +14,6 @@
 
 - (void)Action_tsetAShowAlert:(NSDictionary *)params;
 
+- (UIViewController *)Action_viewController:(NSDictionary *)params;
+
 @end
